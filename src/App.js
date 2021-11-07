@@ -1,28 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import './style.css'
-import {NavBar} from './components/navBar'
-
-
+import NavBar from './components/navBar.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import  HomeView from './components/HomeView/HomeView.js';
 function App() {
 
-  const saludar ={
-
-  }
-
+  
   return (
     <div className="App">
-
-      <NavBar />
-
-      <h1>Hola Coder!</h1>
-
-      <section style={ {border: '2px red solid'} }onClick={saludar}>
-        <p>Coder reactJS</p>
-      </section>
+      <NavBar/>
+      <HomeView/>
     </div>
 
-  );
+  )
 }
 
 export default App;
