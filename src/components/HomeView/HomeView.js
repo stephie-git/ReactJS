@@ -2,7 +2,11 @@
  const HomeView = (props) => {
     return (
         <div>
-            <h2>Home View</h2>    
+            <hr/>
+            <h2>Libroteca Online</h2>  
+            <h3>Libreria</h3> 
+            <hr/>
+
 
 
 
